@@ -1,6 +1,6 @@
-# Watermeter Reader Sensor
+# Watermeter Reader
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs) ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/hombrelab/home-assistant-watermeter-reader) ![GitHub commit activity](https://img.shields.io/github/last-commit/hombrelab/home-assistant-watermeter-reader)  
-The [watermeter-reader](https://github.com/hombrelab/home-assistant-watermeter-reader) custom component for [home-assistant](https://www.home-assistant.io) is created to receive updates from the [hombre-watermeter-reader](https://github.com/hombrelab/hombre-watermeter-reader) Docker container.
+The [Watermeter Reader](https://github.com/hombrelab/home-assistant-watermeter-reader) custom component for [home-assistant](https://www.home-assistant.io) is created to receive updates from the [hombre-watermeter-reader](https://github.com/hombrelab/hombre-watermeter-reader) Docker container.
 
 The Hombre Watermeter Reader publishes a JSON object to an MQTT server.  
 

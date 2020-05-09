@@ -1,0 +1,14 @@
+{
+  "domain": "watermeter_reader",
+  "name": "Watermeter Reader",
+  "config_flow": true,
+  "documentation": "https://github.com/hombrelab/home-assistant-watermeter-reader/",
+  "dependencies": [
+    "mqtt"
+  ],
+  "after_dependencies": [],
+  "codeowners": [
+    "@hombrelab"
+  ],
+  "requirements": []
+}

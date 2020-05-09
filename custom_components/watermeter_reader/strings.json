@@ -1,0 +1,22 @@
+{
+  "title": "Watermeter Reader",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Location",
+        "data": {
+          "topic": "Topic"
+        }
+      }
+    },
+    "error": {
+      "name_error": "This name is already in use!",
+      "connection_error": "Failed to connect MQTT (is it enabled).",
+      "variables_error": "One or more variables have not been set up (correct)."
+    },
+    "abort": {
+      "already_configured": "The Watermeter Reader is already configured",
+      "single_instance_allowed": "Only a single configuration of Watermeter Reader is allowed."
+    }
+  }
+}

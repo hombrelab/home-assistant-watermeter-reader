@@ -1,6 +1,6 @@
-"""
-Config flow for the Watermeter Reader component.
-"""
+#  Copyright (c) 2020 Hombrelab <me@hombrelab.com>
+
+# Config flow for the Watermeter Reader component.
 
 import logging
 

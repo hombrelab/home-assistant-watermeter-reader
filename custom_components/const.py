@@ -1,13 +1,13 @@
-"""
-Constants for the Watermeter Reader component
-"""
+#  Copyright (c) 2020 Hombrelab <me@hombrelab.com>
+
+# Constants for the Watermeter Reader component
 
 DOMAIN = "watermeter_reader"
 UUID = "ad926e34-7f56-4bb1-9d03-36593d1f8066"
 
 SW_MANUFACTURER = "Hombrelab"
 SW_NAME = "Watermeter Reader"
-SW_VERSION = "1.0.2"
+SW_VERSION = "1.0.3"
 
 TITLE = "Home"
 

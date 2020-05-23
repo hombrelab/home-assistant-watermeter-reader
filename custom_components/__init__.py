@@ -1,6 +1,6 @@
-"""
-The Watermeter Reader component for Home Assistant.
-"""
+#  Copyright (c) 2020 Hombrelab <me@hombrelab.com>
+
+# The Watermeter Reader component for Home Assistant.
 
 import asyncio
 import logging

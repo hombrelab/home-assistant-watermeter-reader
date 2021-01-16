@@ -1,4 +1,4 @@
-#  Copyright (c) 2020 Hombrelab <me@hombrelab.com>
+#  Copyright (c) 2021 Hombrelab <me@hombrelab.com>
 
 # Constants for the Watermeter Reader component
 
@@ -7,7 +7,7 @@ UUID = "ad926e34-7f56-4bb1-9d03-36593d1f8066"
 
 SW_MANUFACTURER = "Hombrelab"
 SW_NAME = "Watermeter Reader"
-SW_VERSION = "{{version}}"
+SW_VERSION = "1.9.999"
 
 TITLE = "Home"
 
@@ -15,49 +15,25 @@ TITLE = "Home"
 TOPIC = "topic"
 
 # default values
-DEFAULT_TOPIC = "home-assistant/watermeter-reader"
+DEFAULT_TOPIC = "home-assistant/watermeter/consumer"
 
 # list of entities
 ENTITIES = [
     [
-        'Watermeter Liter Consumed',
-        'mdi:water',
-        'm3',
-        'litersConsumed'
-    ],
-    [
-        'Watermeter Liter Timestamp',
-        'mdi:history',
-        None,
-        'litersTimestamp'
-    ],
-    [
-        'Watermeter Last Consumed',
-        'mdi:water',
-        'm3',
-        'lastConsumed'
-    ],
-    [
-        'Watermeter Last Timestamp',
-        'mdi:history',
-        None,
-        'lastTimestamp'
-    ],
-    [
-        'Watermeter Pulse',
-        'mdi:pulse',
-        None,
-        'pulse'
-    ],
-    [
         'Watermeter Consumed',
         'mdi:water',
         'm3',
-        'consumed'
+        'pulsed'
+    ],
+    [
+        'Watermeter Totals',
+        'mdi:water',
+        'm3',
+        'totals'
     ],
     [
         'Watermeter Timestamp',
-        'mdi:update',
+        'mdi:history',
         None,
         'timestamp'
     ]

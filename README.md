@@ -22,8 +22,8 @@ sensors:
     friendly_name: "Watermeter Cubic Meter"
     unit_of_measurement: m3
     value_template: >-
-      {%- if states('sensor.watermeter_consumed') -%}
-        {% set consumed = states('sensor.watermeter_consumed') | float / 1000 | round(3) %}
+      {%- if states('sensor.watermeter_reader_consumed') -%}
+        {% set consumed = states('sensor.watermeter_reader_consumed') | float / 1000 | round(3) %}
         {{consumed}}
       {%- else -%}
         -
@@ -35,8 +35,8 @@ sensors:
   watermeter_updated:
     friendly_name: "Watermeter Updated"
     value_template: >-
-      {%- if states('sensor.watermeter_timestamp') -%}
-        {% set timestamp = states('sensor.watermeter_timestamp') | int | timestamp_custom('%H:%M:%S', true) %}
+      {%- if states('sensor.watermeter_reader_timestamp') -%}
+        {% set timestamp = states('sensor.watermeter_reader_timestamp') | int | timestamp_custom('%H:%M:%S', true) %}
         {{timestamp}}
       {%- else -%}
         -

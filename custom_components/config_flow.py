@@ -19,7 +19,7 @@ from .const import (
 _LOGGER = logging.getLogger(__name__)
 
 
-class WatermeterReaderConfigFlow(ConfigFlow, domain=DOMAIN):
+class WatermeterConfigFlow(ConfigFlow, domain=DOMAIN):
     VERSION = 1
 
     CONNECTION_CLASS = config_entries.CONN_CLASS_UNKNOWN

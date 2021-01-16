@@ -7,7 +7,7 @@ UUID = "ad926e34-7f56-4bb1-9d03-36593d1f8066"
 
 SW_MANUFACTURER = "Hombrelab"
 SW_NAME = "Watermeter Reader"
-SW_VERSION = "2.0.000"
+SW_VERSION = "2.0.001"
 
 TITLE = "Home"
 

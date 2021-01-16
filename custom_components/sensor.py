@@ -27,7 +27,7 @@ async def async_setup_entry(hass: HomeAssistantType, entry: ConfigEntry, async_a
     mqtt = hass.components.mqtt
 
     # Generate device entities
-    entities = [WatermeterReaderEntity(
+    entities = [WatermeterEntity(
         name, icon, unit, element) for name, icon, unit, element in ENTITIES]
 
     # Set up the sensor platform
@@ -51,7 +51,7 @@ async def async_setup_entry(hass: HomeAssistantType, entry: ConfigEntry, async_a
     hass.async_create_task(mqtt.async_subscribe(entry.data[TOPIC], reader_callback, 0))
 
 
-class WatermeterReaderEntity(WatermeterReaderDevice, RestoreEntity):
+class WatermeterEntity(WatermeterReaderDevice, RestoreEntity):
     def __init__(self, name, icon, unit, element):
         # Initialize the sensor
         self._name = name

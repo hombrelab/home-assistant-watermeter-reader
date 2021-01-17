@@ -1,5 +1,4 @@
-#  Copyright (c) 2021 Hombrelab <me@hombrelab.com>
-
+# Copyright (c) 2021 Hombrelab <me@hombrelab.com>
 # Sensor for the Watermeter Reader component.
 
 from homeassistant.config_entries import ConfigEntry

@@ -1,5 +1,4 @@
-#  Copyright (c) 2021 Hombrelab <me@hombrelab.com>
-
+# Copyright (c) 2021 Hombrelab <me@hombrelab.com>
 # Config flow for the Watermeter Reader component.
 
 import logging
@@ -19,7 +18,7 @@ from .const import (
 _LOGGER = logging.getLogger(__name__)
 
 
-class WatermeterConfigFlow(ConfigFlow, domain=DOMAIN):
+class WatermeterReaderConfigFlow(ConfigFlow, domain=DOMAIN):
     VERSION = 1
 
     CONNECTION_CLASS = config_entries.CONN_CLASS_UNKNOWN
